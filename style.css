@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #c6f2f8;
+    color: blueviolet;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1280px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+header figure{
+    width: 100px;
+    
+}
+header figure img{
+    width: 300px;
+}
+section{
+    border-top: 3px solid brown;
+    margin-bottom: 1em;
+    /* em unidad de medida relativa. El tamanos en pixels es relativo al tamano de la fuente del contenedor padre. Ejemplo: font-size: 16px (elemento padre 1em = 16px)*/
+}
+#hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero #text-hero{
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px gray;
+}
+#hero #background-hero img{
+    width: 100%;
+}
+
+#hero .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#hero .button-hero{
+    display: inline-block;
+    width: 200px;
+    background-color: antiquewhite;
+    color: red;
+    padding: 5px;
+    margin-top: 20px 5py 0px 5px;
+    text-align: center;
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#blog .section-blog{
+     display: flex;
+    width: 50%;
+    border: 2px solid red;
+    margin-bottom: 30px;
+    align-items: end;
+   
+}
+#blog .section-blog figure{
+    width: 70%;
+    margin: 10px;
+    
+
+}
+
+#blog .section-blog figure img{
+    width: 100%;
+}
